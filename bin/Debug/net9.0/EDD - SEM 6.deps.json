@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "EDD - SEM 6/1.0.0": {
+        "runtime": {
+          "EDD - SEM 6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EDD - SEM 6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
