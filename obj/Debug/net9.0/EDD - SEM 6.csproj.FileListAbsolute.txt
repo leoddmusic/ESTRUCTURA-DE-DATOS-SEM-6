@@ -12,3 +12,4 @@ C:\Users\Leodd\EDD - SEM 6\obj\Debug\net9.0\refint\EDD - SEM 6.dll
 C:\Users\Leodd\EDD - SEM 6\obj\Debug\net9.0\EDD - SEM 6.pdb
 C:\Users\Leodd\EDD - SEM 6\obj\Debug\net9.0\EDD - SEM 6.genruntimeconfig.cache
 C:\Users\Leodd\EDD - SEM 6\obj\Debug\net9.0\ref\EDD - SEM 6.dll
+C:\Users\Leodd\EDD - SEM 6\obj\Debug\net9.0\EDD - SEM 6.sourcelink.json

@@ -48,7 +48,8 @@ namespace ListasEnlazadas
             Console.WriteLine("null");
         }
 
-        // Buscar un valor en la lista
+        // EJERCICIO 3: Implementar el método de búsqueda en la lista enlazada
+        // Este método busca un valor en la lista y cuenta cuántas veces aparece.
         public int Buscar(int valor)
         {
             int contador = 0;
@@ -62,7 +63,8 @@ namespace ListasEnlazadas
             return contador;
         }
 
-        // Eliminar nodos fuera de un rango
+        // EJERCICIO 4: Crear una lista enlazada con 50 números aleatorios
+        // y eliminar los nodos cuyos valores estén fuera de un rango ingresado por el usuario.
         public void EliminarFueraDeRango(int min, int max)
         {
             while (cabeza != null && (cabeza.Valor < min || cabeza.Valor > max))
@@ -91,7 +93,7 @@ namespace ListasEnlazadas
         {
             ListaEnlazada lista = new ListaEnlazada();
 
-            // Generar lista con 50 números aleatorios entre 1 y 999
+            // EJERCICIO 4: Generar lista con 50 números aleatorios entre 1 y 999
             Random random = new Random();
             for (int i = 0; i < 50; i++)
             {
@@ -111,7 +113,7 @@ namespace ListasEnlazadas
             Console.WriteLine($"Lista después de eliminar elementos fuera del rango [{min}, {max}]:");
             lista.Mostrar();
 
-            // Buscar un valor
+            // EJERCICIO 3: Búsqueda de un valor en la lista enlazada
             Console.WriteLine("Introduce un valor a buscar en la lista:");
             int valor = int.Parse(Console.ReadLine() ?? "0");
             int ocurrencias = lista.Buscar(valor);
